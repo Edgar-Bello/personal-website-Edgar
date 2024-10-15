@@ -8,22 +8,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>PostgreSQL</li>
-        <li>Unity</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Godot</li>
-        <li>C#</li>
+        <li>Java</li>
+        <li>Arduino</li>
         <li>Python</li>
-        <li>C++</li>
-        <li>OpenCV</li>
-        <li>Git</li>
-        <li>Google Cloud Platform</li>
-        <li>LLM</li>
-        <li>Deep Learning</li>
-        <li>VR/AR</li>
+        <li>Elecronics</li>
+        <li>Robotics</li>
+        <li>Boxing</li>
       </ul>
       
     ),
@@ -33,7 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Master&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>High School Graduate - Universidad Tecmilenio</li>
         <li>Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
       </ul>
     ),
@@ -66,13 +56,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Game Developer with interest of many topics, from Machine Learning, to Theory.
-            Different skills I have acquired over the years to consider myself a Jack of All Trades, and
-            master to game development since its quite fun.
-
-            My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
-            learning different topics and also teaching others to pursue certain topics if it finds their
-            intereset. 
+          Hi, my name is Edgar Bello, and I&apos;m currently a freshman majoring in computer science.
+          I have a deep passion for robotics and am excited to dive deeper into this field during my time in college.
+          I&apos;m eager to learn more about both the theoretical and practical aspects of robotics, 
+          from coding and algorithms to hands-on building and innovation. 
+          I&apos;m looking forward to expanding my skills, 
+          collaborating with others, and exploring the endless possibilities that technology offers.   
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
