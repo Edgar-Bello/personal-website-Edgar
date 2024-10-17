@@ -7,7 +7,7 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "Super cool Website",
     description: "Created the website you're currently at",
     image: "/images/Projects/Website.jpg",
     tag: ["All", "Web"],
